@@ -1,5 +1,6 @@
 from selenium import webdriver
 from fixture.session import SessionHelper
+from fixture.soap import SoapHelper
 from selenium.webdriver.support.select import Select
 import os
 import string
@@ -19,6 +20,7 @@ class Application:
         self.wd.implicitly_wait(5)
         self.session = SessionHelper(self)
         self.baseurl = baseurl
+        self.soap = SoapHelper(self)
 
     def open_main_page(self):
         wd = self.wd

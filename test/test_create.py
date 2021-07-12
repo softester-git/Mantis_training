@@ -1,5 +1,6 @@
 def test_create(app):
     wd = app.wd
+    assert app.soap.can_login(username="administrator", password="admin")
     app.session.login(user_name="administrator", user_pass="admin")
     assert app.session.is_logged_in_as("administrator")
     #open create page

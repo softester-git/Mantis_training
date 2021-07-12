@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0843c744-cdbb-486f-8ad4-b36d7472a560" name="Default Changelist" comment="Авторизация Mantis">
-      <change afterPath="$PROJECT_DIR$/test/test_create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_delete.py" afterDir="false" />
+    <list default="true" id="0843c744-cdbb-486f-8ad4-b36d7472a560" name="Default Changelist" comment="Создание/удаление проекта Mantis">
+      <change afterPath="$PROJECT_DIR$/fixture/soap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_can_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_create.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_create.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626117392478</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Создание/удаление проекта Mantis">
+      <created>1626120493257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626120493257</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Авторизация Mantis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Авторизация Mantis" />
+    <MESSAGE value="Создание/удаление проекта Mantis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание/удаление проекта Mantis" />
   </component>
 </project>
