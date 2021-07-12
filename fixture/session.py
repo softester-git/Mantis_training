@@ -7,7 +7,7 @@ class SessionHelper:
 
     def login(self, user_name, user_pass):
         wd = self.app.wd
-        #self.app.open_main_page()
+        self.app.open_main_page()
         wd.find_element_by_name("username").click()
         wd.find_element_by_name("username").clear()
         wd.find_element_by_name("username").send_keys(user_name)
@@ -33,11 +33,13 @@ class SessionHelper:
         return len(wd.find_elements_by_link_text("Logout")) > 0
 
     def is_logged_in_as(self, username):
-        return self.get_logged_user() == "(%s)" % username
+        return self.get_logged_user() == "%s" % username
 
     def get_logged_user(self):
         wd = self.app.wd
-        return wd.find_element_by_css_selector("span.label hidden-xs label-default arrowed").text
+        block0 = wd.find_element_by_id("breadcrumbs")
+        block1 = block0.find_element_by_css_selector("a").text
+        return block1
 
     def ensure_login(self, username, password):
         if self.is_logged_in():
