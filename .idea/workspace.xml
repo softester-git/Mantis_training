@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0843c744-cdbb-486f-8ad4-b36d7472a560" name="Default Changelist" comment="Проверка возможности авторизации">
+    <list default="true" id="0843c744-cdbb-486f-8ad4-b36d7472a560" name="Default Changelist" comment="Получение данных через Soap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/soap.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/soap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_create.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_create.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_delete.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626121826332</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Получение данных через Soap">
+      <created>1626123288471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626123288471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +141,7 @@
     <MESSAGE value="Авторизация Mantis" />
     <MESSAGE value="Создание/удаление проекта Mantis" />
     <MESSAGE value="Проверка возможности авторизации" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проверка возможности авторизации" />
+    <MESSAGE value="Получение данных через Soap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Получение данных через Soap" />
   </component>
 </project>
