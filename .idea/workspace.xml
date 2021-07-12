@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0843c744-cdbb-486f-8ad4-b36d7472a560" name="Default Changelist" comment="Создание/удаление проекта Mantis">
-      <change afterPath="$PROJECT_DIR$/fixture/soap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_can_login.py" afterDir="false" />
+    <list default="true" id="0843c744-cdbb-486f-8ad4-b36d7472a560" name="Default Changelist" comment="Проверка возможности авторизации">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/soap.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/soap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_create.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_create.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_delete.py">
+  <component name="RunManager" selected="Python tests.pytest in test_create.py">
     <configuration name="pytest in test_create.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Mantis_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_delete.py" />
         <item itemvalue="Python tests.pytest in test_create.py" />
+        <item itemvalue="Python tests.pytest in test_delete.py" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626120493257</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Проверка возможности авторизации">
+      <created>1626121826332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626121826332</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +132,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Авторизация Mantis" />
     <MESSAGE value="Создание/удаление проекта Mantis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание/удаление проекта Mantis" />
+    <MESSAGE value="Проверка возможности авторизации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка возможности авторизации" />
   </component>
 </project>

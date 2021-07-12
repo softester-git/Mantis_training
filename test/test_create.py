@@ -6,7 +6,9 @@ def test_create(app):
     #open create page
     app.open_create_page()
     # fill form
-    app.fill_form(pname="name0", pdesc="desc0")
+    pn = "name0"
+    pd = "desc0"
+    app.fill_form(pname=pn, pdesc=pd)
     # check creation
     wd.find_element_by_xpath("//a[@href='/mantisbt-2.25.2/manage_overview_page.php']").click()
     wd.find_element_by_link_text(u"Управление проектами").click()
@@ -14,6 +16,7 @@ def test_create(app):
     hrefs = tab.find_elements_by_css_selector("a")
     flag = 0
     for i in hrefs:
-        if i.text == "name1":
+        if i.text == pn:
             flag = 1
     assert flag == 1
+    app.soap.get_projects(username="administrator", password="admin", pname=pn)

@@ -28,3 +28,4 @@ def test_delete(app):
         if i.text == pdel:
             flag = 1
     assert flag != 1
+    app.soap.get_projects_del(username="administrator", password="admin", pname=pdel)
