@@ -55,3 +55,19 @@ class Application:
     def random_string(prefix, maxlen):
         symbols = string.ascii_letters + string.digits
         return prefix + "".join([random.choice(symbols) for i in range(random.randrange(maxlen))])
+
+    def open_create_page(self):
+        wd = self.wd
+        wd.find_element_by_xpath("//a[@href='/mantisbt-2.25.2/manage_overview_page.php']").click()
+        wd.find_element_by_link_text(u"Управление проектами").click()
+        wd.find_element_by_xpath("//button[@type='submit']").click()
+
+    def fill_form(self, pname, pdesc):
+        wd = self.wd
+        wd.find_element_by_id("project-name").click()
+        wd.find_element_by_id("project-name").clear()
+        wd.find_element_by_id("project-name").send_keys(pname)
+        wd.find_element_by_id("project-description").click()
+        wd.find_element_by_id("project-description").clear()
+        wd.find_element_by_id("project-description").send_keys(pdesc)
+        wd.find_element_by_xpath(u"//input[@value='Добавить проект']").click()
